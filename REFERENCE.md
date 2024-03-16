@@ -12,3 +12,4 @@ In app.jsx, setup axios connection that deals with the base url to which the req
 
 Setup api folder to create backend.
 install express, mongoose, dotenv, cors, jwt, nodemon
+Create MongoDB connection
