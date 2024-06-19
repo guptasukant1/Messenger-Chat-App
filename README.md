@@ -1,4 +1,4 @@
-# Messenger App Reference
+# Messenger App
 
 Setup client via vite (react + js)
 Install tailwind, axios
