@@ -12,4 +12,11 @@ In app.jsx, setup axios connection that deals with the base url to which the req
 
 Setup api folder to create backend.
 install express, mongoose, dotenv, cors, jwt, nodemon
-Create MongoDB connection
+Import userSchema [Initiates a connection via mongoose to handle uname, pword entries along with timestamp of creation]
+Create MongoDB connection, initialize jwt access.
+app.get for test path
+
+post for /register handler to access the uname and pword sent from frontend, create user from the userSchema imported.
+Generate a jwt token for the said user by accesing mongodb entry id, send the token back to the client as a cookie and store the said user's data.
+
+
